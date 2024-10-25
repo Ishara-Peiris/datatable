@@ -1,0 +1,104 @@
+.table-container {
+    padding: 20px;
+}
+
+.add-btn-container {
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+
+}
+
+.btn1{
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    color: white;
+    border-radius: 6px;
+    font-size: 1.0rem;
+    padding: 7px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-color: #f4f5f8;
+    margin-top: 30px;
+
+
+
+
+}
+
+.btn-add-department {
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    color: white;
+    font-size: 1.0rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 40px;
+
+
+}
+
+.btn-add-department:hover {
+    background-color: #c2bdcc;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-add-department i {
+    margin-right: 8px;
+}
+
+/* Card styles for better UI */
+.card {
+    border: 1px solid #e3e4e7;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fc;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #e3e6f0;
+    text-align: center;
+
+}
+.table th{
+    background-color: #c2bdcc;
+    color: black;
+    text-align: center !important;
+    vertical-align: middle; /* Ensures text is vertically centered */
+    font-size: 0.9rem;
+
+}
+table td{
+    font-size: 0.8rem;
+
+
+}
+.table {
+    width: 50%;
+}
+
+
+
+
+.btn-outline-warning,
+.btn-outline-danger {
+    border: none;
+}
+
+.btn-outline-warning:hover,
+.btn-outline-danger:hover {
+    background-color: #f8f9fa;
+}
+
+#mydataTable_wrapper .dataTables_filter {
+    display: none;
+}
+
