@@ -13,6 +13,8 @@ return [
     |
     */
 
+
+
     'name' => env('APP_NAME', 'Laravel'),
 
     /*
@@ -121,6 +123,11 @@ return [
     'maintenance' => [
         'driver' => env('APP_MAINTENANCE_DRIVER', 'file'),
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
+    ],
+
+    'providers' => [
+    // ...
+    Spatie\Permission\PermissionServiceProvider::class,
     ],
 
 ];

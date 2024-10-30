@@ -23,9 +23,12 @@ Route::get('/department/table', [ DepartmentController::class, 'getDetails'])->n
 
 Route::post('/dept/store', [DepartmentController::class, 'store'])->name('Department.store');
 Route::get('/{id}/department/update', [ DepartmentController::class, 'update'])->name('department.update');
+Route::put('/department/edit/{id}', [DepartmentController::class, 'edit'])->name('DepartmentController.edit');
 Route::get('/{id}/department/delete', [ DepartmentController::class, 'delete'])->name('department.delete');
-Route::put('/{id}/dept/edit', [DepartmentController::class, 'edit'])->name('DepartmentController.edit');
 
+
+//Route::get('/departments', [DepartmentController::class, 'update'])->name('department.index');
+//Route::put('/department/{id}', [DepartmentController::class, 'edit'])->name('department.update');
 require __DIR__.'/auth.php';
 
 Route::get('/department/index4', [ DepartmentController::class, 'index4'])->name('department.insert4');

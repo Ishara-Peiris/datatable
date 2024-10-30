@@ -1,10 +1,10 @@
 <style>
     .sb-sidenav{
-        background-color: rgb(3, 3, 51) !important;
+        background-color: #090624 !important;
 
     }
     .sb-sidenav-footer {
-        background-color: rgb(4, 4, 68) !important;
+        background-color: #090624 !important;
     }
 </style>
 

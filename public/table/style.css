@@ -12,34 +12,33 @@
 }
 
 .btn1{
-    background-color: initial;
-    background-image: linear-gradient(-180deg, #00D775, #00BD68);
-    color: white;
-    border-radius: 6px;
-    font-size: 1.0rem;
-    padding: 7px 20px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    border-color: #f4f5f8;
-    margin-top: 30px;
-
-
-
-
-}
-
-.btn-add-department {
-    background-color: initial;
-    background-image: linear-gradient(-180deg, #00D775, #00BD68);
-    color: white;
+    background-color: white; /* Set background to white */
+    color: #09032e; /* Set text color to dark blue */
     font-size: 1.0rem;
     padding: 10px 20px;
     border-radius: 6px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
     margin-top: 40px;
+    border: 2px solid #09032e; /* Dark blue outline */
+
+
 
 
 }
+.btn-add-department {
+    background-color: white; /* Set background to white */
+    color: #09032e; /* Set text color to dark blue */
+    font-size: 1.0rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 40px;
+    border: 2px solid #09032e; /* Dark blue outline */
+}
+
+
 
 .btn-add-department:hover {
     background-color: #c2bdcc;
@@ -59,7 +58,7 @@
 }
 
 .table-hover tbody tr:hover {
-    background-color: #f8f9fc;
+    background-color: #b3c0e7;
 }
 
 .table-bordered th,
@@ -69,8 +68,8 @@
 
 }
 .table th{
-    background-color: #c2bdcc;
-    color: black;
+    background-color:#040720;
+    color: white;
     text-align: center !important;
     vertical-align: middle; /* Ensures text is vertically centered */
     font-size: 0.9rem;
@@ -101,4 +100,25 @@ table td{
 #mydataTable_wrapper .dataTables_filter {
     display: none;
 }
+
+.icon-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color */
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+}
+
+
+
+/* Optional: Change color on hover */
+.icon-link:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+
+
+
+.icon-link:hover {
+    background-color: rgba(0, 123, 255, 0.1); /* Light blue background on hover (optional) */
+}
+
 

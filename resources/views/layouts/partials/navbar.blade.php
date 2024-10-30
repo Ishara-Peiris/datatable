@@ -1,6 +1,6 @@
 <style>
     .sb-topnav {
-        background-color: #ebe5e5 !important;
+        background-color: #c3c5c7 !important;
     }
 </style>
 
